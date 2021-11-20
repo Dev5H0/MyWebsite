@@ -3,7 +3,7 @@
 // Imports
 var config = require('../config.json')
 var app = require('../app');
-var debug = require('debug')('tomtskolanodeexpress:server');
+var debug = require('debug')('mywebsite:server');
 var http = require('http');
 
 
