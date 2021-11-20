@@ -2,9 +2,11 @@
   "name": "mywebsite",
   "version": "1.0.0",
   "description": "",
-  "main": "/bin/www",
+  "main": "src/bin/www",
   "scripts": {
-    "app": "main"
+    "main": "node src/bin/www",
+    "app": "node src/bin/www",
+    ".": "node src/bin/www"
   },
   "author": "5H0",
   "license": "DBAD",
